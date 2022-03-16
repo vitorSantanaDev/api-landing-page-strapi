@@ -4,12 +4,12 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        host: env('DATABASE_HOST', 'landingpage.1k6tx.mongodb.net'),
+        host: env('DATABASE_HOST', process.env.DATABASE_HOST),
         srv: env.bool('DATABASE_SRV', true),
-        port: env.int('DATABASE_PORT', 27017),
-        database: env('DATABASE_NAME', 'strapi-landingpage'),
-        username: env('DATABASE_USERNAME', 'user_landingpage'),
-        password: env('DATABASE_PASSWORD', 'A81iJHkV43cu5nn7'),
+        port: env.int('DATABASE_PORT', process.env.DATABASE_PORT),
+        database: env('DATABASE_NAME', process.env.DATABASE_NAME),
+        username: env('DATABASE_USERNAME', process.env.DATABASE_USERNAME),
+        password: env('DATABASE_PASSWORD', process.env.DATABASE_PASSWORD),
       },
       options: {
         authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
