@@ -38,7 +38,8 @@
     },
     "footer": {
       "type": "richtext",
-      "required": true
+      "required": true,
+      "default": "Feitor com muita dedicação por Vitor Santana"
     }
   }
 }
