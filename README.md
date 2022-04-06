@@ -9,3 +9,12 @@
 </p>
 
 <img align="right" src="https://res.cloudinary.com/vsantana/image/upload/v1648770616/javascript_not_optimized_4878dce2dc.svg" height="120">
+
+  <br>
+  
+## Tecnologias e Ferramentas
+
+As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
+- [Strapi](https://strapi.io/)
+- [MongoDb](https://www.mongodb.com/)
+- [GraphQL](https://graphql.org/)
