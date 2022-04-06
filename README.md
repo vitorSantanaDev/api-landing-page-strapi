@@ -1,6 +1,6 @@
-# A simple landing page created in React js
+# A simple api made with Strapi
 
-<p>Landing Page React.</p>
+<p>Back-end of landing page React.</p>
 
 <p>
   <img src="https://img.shields.io/badge/made%20by-Vitor%20Santana-dc143c?style=flat-square">
